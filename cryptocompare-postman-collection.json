@@ -1,0 +1,135 @@
+{
+    "id": "6133efea6b3fe88d8d0ee81be43f2d4c",
+    "name": "Cryptocompare",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "8a09c35e1e72583c3c76d95f65b01bfc",
+            "name": "API Description",
+            "url": "httpsmin-api.cryptocompare.com\/\/",
+            "description": "Api description.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6133efea6b3fe88d8d0ee81be43f2d4c",
+            "rawModeData": ""
+        },
+        {
+            "id": "d31a63e5768c75bf4cd0c9d29d923121",
+            "name": "Get Single Price",
+            "url": "httpsmin-api.cryptocompare.com\/\/data\/price",
+            "description": "Get single price.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "fsym",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "tsyms",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6133efea6b3fe88d8d0ee81be43f2d4c",
+            "rawModeData": ""
+        },
+        {
+            "id": "ecbcaeec730def6063b61bb4dbd45aa5",
+            "name": "Get Multiple Prices",
+            "url": "httpsmin-api.cryptocompare.com\/\/data\/pricemulti",
+            "description": "Get multiple prices.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "fsyms",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "tsyms",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6133efea6b3fe88d8d0ee81be43f2d4c",
+            "rawModeData": ""
+        },
+        {
+            "id": "d411bad347a82ebe105372405ef66379",
+            "name": "Get Coinlist",
+            "url": "httpsmin-api.cryptocompare.com\/\/data\/all\/coinlist",
+            "description": "Get coinlist.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6133efea6b3fe88d8d0ee81be43f2d4c",
+            "rawModeData": ""
+        }
+    ]
+}
