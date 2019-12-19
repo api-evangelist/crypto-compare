@@ -1,0 +1,75 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Cryptocompare",
+        "description": "TODO: Add Description",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsmin-api.cryptocompare.com\/"
+    ],
+    "paths": {
+        "\/": {
+            "get": {
+                "summary": "API Description",
+                "description": "Api description.",
+                "operationId": "UnnammedEndpointGet",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/data\/price": {
+            "get": {
+                "summary": "Get Single Price",
+                "description": "Get single price.",
+                "operationId": "DataPriceGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "fsym",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "tsyms",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/data\/pricemulti": {
+            "get": {
+                "summary": "Get Multiple Prices",
+                "description": "Get multiple prices.",
+                "operationId": "DataPricemultiGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "fsyms",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "tsyms",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/data\/all\/coinlist": {
+            "get": {
+                "summary": "Get Coinlist",
+                "description": "Get coinlist.",
+                "operationId": "DataAllCoinlistGet",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
