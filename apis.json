@@ -1,0 +1,78 @@
+{
+    "name": "Crypto Compare",
+    "description": "We bring you all the latest streaming pricing data in the world of cryptocurrencies. Whether you are just interested in the bitcoin price or you want to see the latest ether volume, we have all the data available at your fingertips. Join the discussion...",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/cryptocompare-logo.png",
+    "tags": [
+        "api provider",
+        "blockchain",
+        "have api",
+        "webhook implementations"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/crypto-compare\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Cryptocompare",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/cryptocompare-logo.png",
+            "humanURL": "https:\/\/www.cryptocompare.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/cryptocompare.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/cryptocompare-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Github Topic",
+            "url": "https:\/\/github.com\/topics\/cryptocompare"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/crypto-coin-comparison-ltd"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/www.cryptocompare.com\/api\/"
+        },
+        {
+            "type": "Email",
+            "url": "chayter@cryptocompare.com"
+        },
+        {
+            "type": "Email",
+            "url": "vcealicu@cryptocompare.com"
+        },
+        {
+            "type": "Email",
+            "url": "info@CryptoCompare.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/CryptoCompare"
+        },
+        {
+            "type": "Webhooks",
+            "url": "https:\/\/www.cryptocompare.com\/api\/#-api-web-socket-"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.cryptocompare.com"
+        },
+        {
+            "type": "Websockets",
+            "url": "https:\/\/www.cryptocompare.com\/api\/#-api-web-socket-"
+        }
+    ]
+}
