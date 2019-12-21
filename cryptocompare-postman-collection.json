@@ -1,5 +1,5 @@
 {
-    "id": "6133efea6b3fe88d8d0ee81be43f2d4c",
+    "id": "8c59f5b712bdab454bc09a9ad416b8dd",
     "name": "Cryptocompare",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "8a09c35e1e72583c3c76d95f65b01bfc",
+            "id": "a5e3c66520376788cda05966b177938c",
             "name": "API Description",
             "url": "httpsmin-api.cryptocompare.com\/\/",
             "description": "Api description.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "6133efea6b3fe88d8d0ee81be43f2d4c",
+            "collectionId": "8c59f5b712bdab454bc09a9ad416b8dd",
             "rawModeData": ""
         },
         {
-            "id": "d31a63e5768c75bf4cd0c9d29d923121",
+            "id": "fb1cc943dd24b18a970fcde6e4fe5c4c",
             "name": "Get Single Price",
             "url": "httpsmin-api.cryptocompare.com\/\/data\/price",
             "description": "Get single price.",
@@ -67,11 +67,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "6133efea6b3fe88d8d0ee81be43f2d4c",
+            "collectionId": "8c59f5b712bdab454bc09a9ad416b8dd",
             "rawModeData": ""
         },
         {
-            "id": "ecbcaeec730def6063b61bb4dbd45aa5",
+            "id": "44da974aa81caeeb7326374bbab68a2a",
             "name": "Get Multiple Prices",
             "url": "httpsmin-api.cryptocompare.com\/\/data\/pricemulti",
             "description": "Get multiple prices.",
@@ -105,11 +105,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "6133efea6b3fe88d8d0ee81be43f2d4c",
+            "collectionId": "8c59f5b712bdab454bc09a9ad416b8dd",
             "rawModeData": ""
         },
         {
-            "id": "d411bad347a82ebe105372405ef66379",
+            "id": "b1946fafa69942f69f6f382d91366501",
             "name": "Get Coinlist",
             "url": "httpsmin-api.cryptocompare.com\/\/data\/all\/coinlist",
             "description": "Get coinlist.",
@@ -128,7 +128,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "6133efea6b3fe88d8d0ee81be43f2d4c",
+            "collectionId": "8c59f5b712bdab454bc09a9ad416b8dd",
             "rawModeData": ""
         }
     ]
