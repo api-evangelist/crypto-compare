@@ -8,8 +8,8 @@
         "have api",
         "webhook implementations"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-20",
+    "modified": "2019-12-20",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/crypto-compare\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -27,13 +27,21 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/cryptocompare-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/crypto-compare\/master\/cryptocompare-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/crypto-compare\/master\/cryptocompare-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Github Topic",
             "url": "https:\/\/github.com\/topics\/cryptocompare"
